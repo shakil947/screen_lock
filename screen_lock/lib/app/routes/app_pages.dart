@@ -17,14 +17,14 @@ class AppPages {
       name: _Paths.HOME,
       page: () => HomeView(),
       // binding: HomeBinding(),
-      transition: Transition.fadeIn,
+      transition: Transition.downToUp,
       fullscreenDialog: false,
     ),
     GetPage(
       name: _Paths.NEXT,
       page: () => NextView(),
       // binding: HomeBinding(),
-      transition: Transition.fadeIn,
+      transition: Transition.downToUp,
       fullscreenDialog: false,
     ),
   ];
